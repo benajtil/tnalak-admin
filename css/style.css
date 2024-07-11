@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+}
+.loginbox {
+	position: fixed;
+	padding-top:100px;
+	margin-left: 40px;
+	width: 450px;
+	z-index: 1;
+}
+
+body {
+	background: linear-gradient(90deg, #C7C5F4, #969696);		
+}
+
+.container {
+	margin-top:30px;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.screen {		
+	background: linear-gradient(90deg, #ffffffa2, #a7a7a754);		
+	position: fixed;	
+	height: 500px;
+	width: 460px;	
+	box-shadow: 0px 0px 24px #5C5696;
+	border-radius: 10%;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+}
+
+.login__field {
+	display: flex;
+	margin: 10px 10px 0 100px;
+
+}
+.login__field input{
+	
+	font-size: 20px;
+	text-align: center;
+	justify-content: center;
+
+}
+
+
+.login__input {
+	border:#ffffffd0;
+	border-bottom: 3px solid #D1D1D4;
+	border-radius: 10%;
+	background: none;
+	margin-top:30px;
+	font-weight: 300;
+	width: 50%;
+	transition: .2s;
+	text-align:  center;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #6A679E;
+}
+.eulaplogo {
+	position: inherit;
+	margin-bottom: 20px;
+	width: 130px;
+	height: auto;
+	top: 0;
+}
+
+.login__submit {
+	margin-left: 110px;
+	background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 0 20px;
+	border-radius: 26px;
+	border: 1px solid #D4D3E8;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #4C489D;
+	box-shadow: 0px 2px 2px #5C5696;
+	cursor: pointer;
+	transition: .2s;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	display: flex;
+	width: 150px;
+	height: 50px;
+	margin-bottom: 100px;
+	
+
+
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	border-color: #6A679E;
+	outline: none;
+}
+
+.screen__image {
+	opacity: 0.4;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(90deg);
+	width: 500px;
+	height: 460px;
+border-radius: 40px;
+	object-fit: cover;
+	box-shadow: none;
+	z-index:-1
+
+  }
+
+  .background_image {
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: fixed;
+	width: 900px;
+	object-fit: cover;
+	z-index: -1;
+	filter: blur(5px);
+  }

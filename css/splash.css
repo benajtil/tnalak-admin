@@ -1,0 +1,54 @@
+.backvid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    
+}
+
+
+.backvid video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #080c0a;
+    background-color: #fbfcfc;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 7px #999;
+    margin-bottom: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* adjust the height to fit the screen */
+    text-decoration: none;
+    /* center the container horizontally */
+}
+
+.button:hover {
+    background-color: #6b6b6b;
+    box-shadow: #303030;
+    color: #fbfcfc;
+}
+
+.button:active {
+    background-color: #040605;
+    box-shadow: 0 5px #070707;
+    transform: translateY(4px);
+}
